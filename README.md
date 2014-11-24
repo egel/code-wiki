@@ -9,7 +9,7 @@ You'll find here many useful tips and tricks for many programming/administration
   - Ubuntu 14.04
 
 - **Programs**:
-  - Vim
+  - [Vim](programs/vim.md)
   - Git
   - tmux
   - MySQL
