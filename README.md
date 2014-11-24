@@ -25,3 +25,10 @@ You'll find here many useful tips and tricks for many programming/administration
 - **Others**:
   - Making e-book (PDF) from images
 
+
+## Contribution
+Feel free to fork and improve this repository :)
+
+
+## License
+MIT License - Maciej Sypień
