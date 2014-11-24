@@ -1,4 +1,27 @@
-code-wiki
-=========
+# Welcome to the code-wiki!
 
-Repository for many programming tips, tricks and best practices that focus on the programs and programming languages.
+You'll find here many useful tips and tricks for many programming/administration problems like:
+
+- **Shells**:
+  - Bash
+
+- **Operating Systems**:
+  - Ubuntu 14.04
+
+- **Programs**:
+  - Vim
+  - Git
+  - tmux
+  - MySQL
+  - Apache
+
+- **Languages**:
+  - Python
+  - R
+
+- **Frameworks**:
+  - AngularJS
+
+- **Others**:
+  - Making e-book (PDF) from images
+
