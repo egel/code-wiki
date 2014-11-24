@@ -1,13 +1,13 @@
 <img src="img/Vim_logo.png" title="Vim - The ultimate text editor" width="150" />
 
 # Vim
-Vim is just a text editor. There is a version fro LUI and GUI. You can also install almost any operating system more popular.
+Vim is just a text editor. There is a version for LUI (Linear User Interface) and GUI (Graphical User Interface). You can also install this program at any popular operating system.
 
 Many people after the first "clash" with the programi usually asks:
 
-> But why is it like that great? It's ugly, unpleasant and even ... @#$%^&!
+> Why it is such a great tool? It's ugly, unpleasant and even ... @#$%^&!
 
-Its power hides with versatility of usage and outstanding modularity.
+Its power hides with versatility of usage and outstanding modularity :)
 
 
 ## Table of Contents
