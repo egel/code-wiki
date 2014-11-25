@@ -3,20 +3,20 @@
 # Vim
 Vim is just a text editor. There is a version for LUI (Linear User Interface) and GUI (Graphical User Interface). You can also install this program at any popular operating system.
 
-Many people after the first "clash" with the programi usually asks:
+Many people after the first "clash" with the program usually asks:
 
 > Why it is such a great tool? It's ugly, unpleasant and even ... @#$%^&!
 
-Its power hides with versatility of usage and outstanding modularity :)
+..., its power hides with his versatility of usage and outstanding modularity :)
 
 
 ## Table of Contents
-  * [Useful shotcuts](#useful_shortcuts)
-  * [Quick introduction](#quick_introduction)
-  * [Installation and configuration](#installation_and_configuration)
+  * [Installation and configuration](#installation-and-configuration)
+  * [Quick introduction](#quick-introduction)
+  * [Useful shotcuts](#useful-shortcuts)
 
 
-## <a name="#installation_and_configuration">Installation and configuration</a>
+## <a name="#installation-and-configuration">Installation and configuration</a>
 For Debian/Ubuntu/Mint:
 
     $ sudo apt-get install vim
@@ -34,7 +34,7 @@ Clone sample confirutation to your PC.
 
 More information can be found at: [https://github.com/egel/dot-files](https://github.com/egel/dot-files)
 
-## <a name="#quick_introduction">Quick introduction</a>
+## <a name="#quick-installation">Quick introduction</a>
 
     :! php %
 
@@ -44,7 +44,7 @@ More information can be found at: [https://github.com/egel/dot-files](https://gi
   * my name of the file `%`
 
 
-## <a name="#useful_shortcuts">Useful shortcuts</a>
+## <a name="#useful-shortcuts">Useful shortcuts</a>
 
 #### Undo & Redo
 
@@ -54,9 +54,9 @@ More information can be found at: [https://github.com/egel/dot-files](https://gi
 
 #### Copy and Paste
 
-  - Wciskamy w trybie polecenia <kbd>v</kbd> lub <kbd>Ctrl</kbd>+<kbd>v</kbd>
-  - zaznaczamy linijki które nas interesuja
-  - potem klikamy <kbd>p</kbd> aby wkleić tekst
+  - into command insert press <kbd>v</kbd> or <kbd>Ctrl</kbd>+<kbd>v</kbd>
+  - select lines that you want to copy, then press <kbd>y</kbd>
+  - finally paste copied fragment before cursor (<kbd>P</kbd>) or after cursor <kbd>p</kbd>
 
 
 #### Save file as root
