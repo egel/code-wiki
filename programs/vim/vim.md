@@ -126,7 +126,7 @@ Simple as click <kbd>#</kbd> on the search term (in command mode)
 
     <kbd>></kbd> to increase indent
 
-    <kbd><<kbd> to decrease indent
+    <kbd><</kbd> to decrease indent
 
 
 <!-- General links -->
