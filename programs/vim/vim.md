@@ -58,6 +58,8 @@ More information can be found at: [https://github.com/egel/dot-files](https://gi
   - select lines that you want to copy, then press <kbd>y</kbd>
   - finally paste copied fragment before cursor (<kbd>P</kbd>) or after cursor <kbd>p</kbd>
 
+If you you want to using system clipboard on your Linux distro consider to look at my [vim dot-files](egel-dot-files-repo)
+
 
 #### Save file as root
 After open and make some changes into the file you can't save this changes, because you don't have permission to save it. You can simply:
@@ -65,7 +67,33 @@ After open and make some changes into the file you can't save this changes, beca
     :w !sudo tee %
 
 
+#### Search and replace
+To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http://vim.wikia.com/wiki/Search_and_replace)
+
+`:%s/foo/bar/g` - Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
+
+`:%s/foo/bar/gc` - Change each 'foo' to 'bar', but ask for confirmation first.
+
+
+#### Split window
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>S</kbd> for horizontal splitting
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>V</kbd> for vertical splitting
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>Q</kbd> to close one
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>Ctrl</kbd>+<kbd>W</kbd> to switch between windows or also
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>arrows keys</kbd>
+
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>J</kbd> (xor <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
+
+
 #### Autocomplete text
 
 <kbd>Ctrl</kbd>+<kbd>n</kbd> (insert mode)
 
+
+<!-- General links -->
+ [egel-dot-files-repo]: https://github.com/egel/dot-files
