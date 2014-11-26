@@ -32,7 +32,7 @@ For Debian/Ubuntu/Mint:
 
 **Configuration:**
 
-It should make friends with the file `~ / .vimrc`, and this is why the file that stores all the basic settings that are automatically let off every time you run vim.
+You should make friends with the file `~ / .vimrc`, and this is why the file that stores all the basic settings that are automatically let off every time you run vim.
 
 Clone sample confirutation to your PC.
 
@@ -63,7 +63,7 @@ Below you can find many useful shortcuts that will drive your work with vim into
 
 #### <a name="#undo-and-redo">Undo & Redo</a>
 
-  * `undo` - click `u` (command mode)
+  * `undo` - click <kbd>u</kbd> (command mode)
   * `redo` - click <kbd>Ctrl</kbd>+<kbd>r</kbd> (command mode)
 
 
