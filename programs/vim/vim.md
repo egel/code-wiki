@@ -14,6 +14,12 @@ Many people after the first "clash" with the program usually asks:
   * [Installation and configuration](#installation-and-configuration)
   * [Quick introduction](#quick-introduction)
   * [Useful shotcuts](#useful-shortcuts)
+    - [Undo & Redo](#undo-and-redo)
+    - [Copy & Paste](#copy-and-paste)
+    - [Save file as root](#save-file-as-root)
+    - [Search and replace](#search-and-replace)
+    - [Split window](#split-window)
+    - [Autocomplete text](#autocomplete-text)
 
 
 ## <a name="#installation-and-configuration">Installation and configuration</a>
@@ -45,14 +51,15 @@ More information can be found at: [https://github.com/egel/dot-files](https://gi
 
 
 ## <a name="#useful-shortcuts">Useful shortcuts</a>
+Below you can find many useful shortcuts that will drive your work with vim into the ligthspeed.
 
-#### Undo & Redo
+#### <a name="#undo-and-redo">Undo & Redo</a>
 
   * `undo` - click `u` (command mode)
   * `redo` - click <kbd>Ctrl</kbd>+<kbd>r</kbd> (command mode)
 
 
-#### Copy and Paste
+#### <a name="#copy-and-paste">Copy & Paste</a>
 
   - into command insert press <kbd>v</kbd> or <kbd>Ctrl</kbd>+<kbd>v</kbd>
   - select lines that you want to copy, then press <kbd>y</kbd>
@@ -61,13 +68,13 @@ More information can be found at: [https://github.com/egel/dot-files](https://gi
 If you you want to using system clipboard on your Linux distro consider to look at my [vim dot-files](egel-dot-files-repo)
 
 
-#### Save file as root
+#### <a name="#save-file-as-root">Save file as root</a>
 After open and make some changes into the file you can't save this changes, because you don't have permission to save it. You can simply:
 
     :w !sudo tee %
 
 
-#### Search and replace
+#### <a name="#search-and-replace">Search and replace</a>
 To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http://vim.wikia.com/wiki/Search_and_replace)
 
 `:%s/foo/bar/g` - Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
@@ -75,7 +82,7 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 `:%s/foo/bar/gc` - Change each 'foo' to 'bar', but ask for confirmation first.
 
 
-#### Split window
+#### <a name="#split-window">Split window</a>
 
 <kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>S</kbd> for horizontal splitting
 
@@ -85,14 +92,16 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 
 <kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>Ctrl</kbd>+<kbd>W</kbd> to switch between windows or also
 
-<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>arrows keys</kbd>
+<kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>arrow keys</kbd>
 
 <kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>J</kbd> (xor <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
 
 
-#### Autocomplete text
+#### <a name="#autocomplete-text">Autocomplete text</a>
 
-<kbd>Ctrl</kbd>+<kbd>n</kbd> (insert mode)
+<kbd>Ctrl</kbd>+<kbd>n</kbd> next hint (insert mode)
+
+<kbd>Ctrl</kbd>+<kbd>p</kbd> previous hint (insert mode)
 
 
 <!-- General links -->
