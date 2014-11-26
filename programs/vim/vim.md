@@ -20,6 +20,8 @@ Many people after the first "clash" with the program usually asks:
     - [Search and replace](#search-and-replace)
     - [Split window](#split-window)
     - [Autocomplete text](#autocomplete-text)
+    - [Find current word](#find-current-word)
+    - [Tab multiple lines](#tab-multiple-lines)
 
 
 ## <a name="#installation-and-configuration">Installation and configuration</a>
@@ -39,6 +41,12 @@ Clone sample confirutation to your PC.
       ln -s /home/$USER/dot-files/.vim
 
 More information can be found at: [https://github.com/egel/dot-files](https://github.com/egel/dot-files)
+
+**Reload .vimrc in Vim without restart**
+Into command mode:
+
+    :source ~/.vimrc
+
 
 ## <a name="#quick-installation">Quick introduction</a>
 
@@ -102,6 +110,23 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 <kbd>Ctrl</kbd>+<kbd>n</kbd> next hint (insert mode)
 
 <kbd>Ctrl</kbd>+<kbd>p</kbd> previous hint (insert mode)
+
+
+#### <a name="#find-current-word">Find current word</a>
+Simple as click <kbd>#</kbd> on the search term (in command mode)
+
+
+#### <a name="#tab-multiple-lines">Tab multiple lines</a>
+
+1. Select multiple lines for example with:
+
+    <kbd>Shift</kbd>+<kbd>v</kbd>
+
+2. then when text is marked (visual mode) press:
+
+    <kbd>></kbd> to increase indent
+
+    <kbd><<kbd> to decrease indent
 
 
 <!-- General links -->
