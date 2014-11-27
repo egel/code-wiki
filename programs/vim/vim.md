@@ -22,6 +22,7 @@ Many people after the first "clash" with the program usually asks:
     - [Autocomplete text](#autocomplete-text)
     - [Find current word](#find-current-word)
     - [Tab multiple lines](#tab-multiple-lines)
+    - [NERDTree reload new files](#nerdtree-reload-new-files)
 
 
 ## <a name="#installation-and-configuration">Installation and configuration</a>
@@ -127,6 +128,12 @@ Simple as click <kbd>#</kbd> on the search term (in command mode)
     <kbd>></kbd> to increase indent
 
     <kbd><</kbd> to decrease indent
+
+#### <a name="#nerdtree-reload-new-files">NERDtree reload new files</a>
+
+You could simply hit `r` to refresh the current directory's listing or `R` to refresh the root directory's listing .
+
+More generally, many plugins have a thorough documentation that you can access with `:help <pluginame>`.
 
 
 <!-- General links -->
