@@ -90,6 +90,7 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 
 `:%s/foo/bar/gc` - Change each 'foo' to 'bar', but ask for confirmation first.
 
+`:%s/\<foo\>/bar/gc` - Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation.
 
 #### <a name="#split-window">Split window</a>
 
