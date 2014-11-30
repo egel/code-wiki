@@ -2,19 +2,23 @@
 
 # Git
 
+## Legend
+
   - origin = main remote server that where you push your commits
+
 
 ## Table of contents
 
   * Problems:
     - Branch:
-      - Branch miss track with origin/master
-      - Remove branch (local and remote)
+      - [Branch miss track with origin/master](#branch-miss-track-with-originmaster)
+      - [Remove branch (local and remote)](#remove-branch-local-and-remote)
     - Tags:
-      - Add tag
-      - Remove tag (local and remote)
+      - [Add tag](#add-tag)
+      - [Remove tag](#remove-tag)
+      - [Push](#push-tag)
     - Others:
-      - Sign `^M`
+      - [Sign `^M`](#sign-m)
 
 
 ### Git branch
@@ -94,40 +98,6 @@ finishing create local branch
 
     $ git checkout -b experimental origin/experimental
 
-
-#### <a name="">Git - delete tag</a>
-
-    git tag -d 12345
-    git push origin :refs/tags/12345
-
-or
-
-    git push origin --tags --force
-
-
-#### <a name="">git config --global push.default</a>
-**Warning**: `push.default` is unset; its implicit value has changed in
-Git 2.0 from 'matching' to 'simple'. To squelch this message
-and maintain the traditional behavior, use:
-
-    git config --global push.default matching
-
-
-To squelch this message and adopt the new behavior now, use:
-
-    git config --global push.default simple
-
-
-When push.default is set to 'matching', git will push local branches
-to the remote branches that already exist with the same name.
-
-Since Git 2.0, Git defaults to the more conservative 'simple'
-behavior, which only pushes the current branch to the corresponding
-remote branch that 'git pull' uses to update the current branch.
-
-See 'git help config' and search for 'push.default' for further information.
-(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
-'current' instead of 'simple' if you sometimes use older versions of Git)
 
 ### Other
 
