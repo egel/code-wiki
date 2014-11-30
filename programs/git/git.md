@@ -1,4 +1,4 @@
-<img src="img/git_logo.png" title="Git - free and open source distributed version control system" width="100" />
+<img src="img/git_logo.png" title="Git - free and open source distributed version control system" />
 
 # Git
 
