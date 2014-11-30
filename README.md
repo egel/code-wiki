@@ -10,7 +10,7 @@ You'll find here many useful tips and tricks for many programming/administration
 
 - **Programs**:
   - [Vim](programs/vim/vim.md)
-  - Git
+  - [Git](programs/git/git.md)
   - tmux
   - MySQL
   - Apache
