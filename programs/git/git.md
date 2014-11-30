@@ -11,17 +11,40 @@
 
   * Problems:
     - Branch:
+      - [Clone all branches](#clone-all-branches)
       - [Branch miss track with origin/master](#branch-miss-track-with-originmaster)
       - [Remove branch (local and remote)](#remove-branch-local-and-remote)
     - Tags:
       - [Add tag](#add-tag)
       - [Remove tag](#remove-tag)
-      - [Push](#push-tag)
+      - [Push tag](#push-tag)
     - Others:
       - [Sign `^M`](#sign-m)
 
 
 ### Git branch
+
+#### <a name="">Clone all branches</a>
+How do I clone all remote branches with Git?
+
+Check branches:
+
+    $ git branch -a
+    * master
+      remotes/origin/HEAD
+      remotes/origin/master
+      remotes/origin/v1.0-stable
+      remotes/origin/experimental
+
+and next...
+
+    $ git checkout origin/experimental
+
+
+finishing create local branch
+
+    $ git checkout -b experimental origin/experimental
+
 
 #### <a name="">Branch miss track with origin/master</a>
 We notice that we don't see how many commits we're ahead/behin with origin (remote repository)
@@ -75,28 +98,6 @@ Push all tags from one (or more) specyfic branch to origin:
 Push specyfic tag to remote repo
 
     git push origin <tag_name>
-
-
-#### <a name="">Clone tags</a>
-How do I clone all remote branches with Git?
-
-Check branches:
-
-    $ git branch -a
-    * master
-      remotes/origin/HEAD
-      remotes/origin/master
-      remotes/origin/v1.0-stable
-      remotes/origin/experimental
-
-and next...
-
-    $ git checkout origin/experimental
-
-
-finishing create local branch
-
-    $ git checkout -b experimental origin/experimental
 
 
 ### Other
