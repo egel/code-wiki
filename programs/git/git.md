@@ -53,17 +53,17 @@ We notice that we don't see how many commits we're ahead/behin with origin (remo
 
 Below command set acctual branch we're currently into and set it to track `origin/master`
 
-    git branch --set-upstream-to=origin/master
+    $ git branch --set-upstream-to=origin/master
 
 
 #### Remove branch (local and remote)
 In local repository:
 
-    git branch -d
+    $ git branch -d
 
 For origin (remote) - push the "delete" changes to origin:
 
-    git push --delete origin <branchName>
+    $ git push --delete origin <branchName>
 
 
 ### Git tags
@@ -81,25 +81,25 @@ or
 #### Remove tag
 Remove tag from local repository:
 
-    git tag -d 12345
+    $ git tag -d 12345
 
 Remove tag for origin (remote) repository:
 
-    git push --delete origin 12345
+    $ git push --delete origin 12345
 
 
 #### Push tags
 Push all tags from local repo to origin:
 
-    git push --tags
+    $ git push --tags
 
 Push all tags from one (or more) specyfic branch to origin:
 
-    git push --tags production
+    $ git push --tags production
 
 Push specyfic tag to remote repo
 
-    git push origin <tag_name>
+    $ git push origin <tag_name>
 
 ### Submodule
 
