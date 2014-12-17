@@ -18,13 +18,15 @@
       - [Add tag](#add-tag)
       - [Remove tag](#remove-tag)
       - [Push tag](#push-tag)
+    - Submodule:
+      - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
     - Others:
       - [Sign `^M`](#sign-m)
 
 
 ### Git branch
 
-#### <a name="">Clone all branches</a>
+#### Clone all branches
 How do I clone all remote branches with Git?
 
 Check branches:
@@ -46,7 +48,7 @@ finishing create local branch
     $ git checkout -b experimental origin/experimental
 
 
-#### <a name="">Branch miss track with origin/master</a>
+#### Branch miss track with origin/master
 We notice that we don't see how many commits we're ahead/behin with origin (remote repository)
 
 Below command set acctual branch we're currently into and set it to track `origin/master`
@@ -54,7 +56,7 @@ Below command set acctual branch we're currently into and set it to track `origi
     git branch --set-upstream-to=origin/master
 
 
-#### <a name="">Remove branch (local and remote)</a>
+#### Remove branch (local and remote)
 In local repository:
 
     git branch -d
@@ -66,7 +68,7 @@ For origin (remote) - push the "delete" changes to origin:
 
 ### Git tags
 
-#### <a name="">Add tag</a>
+#### Add tag
 Add new tag to accual branch, and for specific revision:
 
     $ git tag -a v1.4 -m 'my version 1.4'
@@ -76,7 +78,7 @@ or
     $ git tag -a v1.2 -m 'version 1.2' 9fceb02
 
 
-#### <a name="">Remove tag</a>
+#### Remove tag
 Remove tag from local repository:
 
     git tag -d 12345
@@ -86,7 +88,7 @@ Remove tag for origin (remote) repository:
     git push --delete origin 12345
 
 
-#### <a name="">Push tags</a>
+#### Push tags
 Push all tags from local repo to origin:
 
     git push --tags
@@ -99,10 +101,16 @@ Push specyfic tag to remote repo
 
     git push origin <tag_name>
 
+### Submodule
+
+#### Update all submodules to the newest versions
+The simplest way is to run below command into repository:
+
+    $ git pull --recurse-submodules
 
 ### Other
 
-#### <a name="sign-m">Sign ^M</a>
+#### Sign ^M
 This problem occures when someone not converting their line-ending character correctly.
 I assume it's the Windows folk as they love their CRLF. Unix loves LF and Mac loved CR until it was shown the Unix way.
 
