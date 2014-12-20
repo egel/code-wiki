@@ -35,7 +35,7 @@ For Debian/Ubuntu/Mint:
 
 You should make friends with the file `~ / .vimrc`, and this is why the file that stores all the basic settings that are automatically let off every time you run vim.
 
-Clone sample confirutation to your PC.
+Clone this sample confirutation to your PC and give it a try! ;)
 
     $ cd ~/ && git clone --recursive git@github.com:egel/dot-files.git &&
       ln -s /home/$USER/dot-files/.vimrc &&
