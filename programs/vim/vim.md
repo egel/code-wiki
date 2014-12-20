@@ -25,7 +25,7 @@ Cool down a bit..., its powers hides with his versatility of usage and outstandi
     - [NERDTree reload new files](#nerdtree-reload-new-files)
 
 
-## <a name="#installation-and-configuration">Installation and configuration</a>
+## Installation and configuration
 For Debian/Ubuntu/Mint:
 
     $ sudo apt-get install vim
@@ -49,7 +49,7 @@ Into command mode:
     :source ~/.vimrc
 
 
-## <a name="#quick-installation">Quick introduction</a>
+## Quick introduction
 
     :! php %
 
@@ -59,16 +59,16 @@ Into command mode:
   * my name of the file `%`
 
 
-## <a name="#useful-shortcuts">Useful shortcuts</a>
+## Useful shortcuts
 Below you can find many useful shortcuts that will drive your work with vim into the ligthspeed.
 
-#### <a name="#undo-and-redo">Undo & Redo</a>
+#### Undo & Redo
 
   * `undo` - click <kbd>u</kbd> (command mode)
   * `redo` - click <kbd>Ctrl</kbd>+<kbd>r</kbd> (command mode)
 
 
-#### <a name="#copy-and-paste">Copy & Paste</a>
+#### Copy & Paste
 
   - into command insert press <kbd>v</kbd> or <kbd>Ctrl</kbd>+<kbd>v</kbd>
   - select lines that you want to copy, then press <kbd>y</kbd>
@@ -77,13 +77,13 @@ Below you can find many useful shortcuts that will drive your work with vim into
 If you you want to using system clipboard on your Linux distro consider to look at my [vim dot-files](egel-dot-files-repo)
 
 
-#### <a name="#save-file-as-root">Save file as root</a>
+#### Save file as root
 After open and make some changes into the file you can't save this changes, because you don't have permission to save it. You can simply:
 
     :w !sudo tee %
 
 
-#### <a name="#search-and-replace">Search and replace</a>
+#### Search and replace
 To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http://vim.wikia.com/wiki/Search_and_replace)
 
 `:%s/foo/bar/g` - Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
@@ -92,7 +92,7 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 
 `:%s/\<foo\>/bar/gc` - Change only whole words exactly matching 'foo' to 'bar'; ask for confirmation.
 
-#### <a name="#split-window">Split window</a>
+#### Split window
 
 <kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>S</kbd> for horizontal splitting
 
@@ -107,18 +107,18 @@ To see more combination see [http://vim.wikia.com/wiki/Search_and_replace](http:
 <kbd>Ctrl</kbd>+<kbd>W</kbd>, <kbd>J</kbd> (xor <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
 
 
-#### <a name="#autocomplete-text">Autocomplete text</a>
+#### Autocomplete text
 
 <kbd>Ctrl</kbd>+<kbd>n</kbd> next hint (insert mode)
 
 <kbd>Ctrl</kbd>+<kbd>p</kbd> previous hint (insert mode)
 
 
-#### <a name="#find-current-word">Find current word</a>
+#### Find current word
 Simple as click <kbd>#</kbd> on the search term (in command mode)
 
 
-#### <a name="#tab-multiple-lines">Tab multiple lines</a>
+#### Tab multiple lines
 
 1. Select multiple lines for example with:
 
@@ -130,7 +130,7 @@ Simple as click <kbd>#</kbd> on the search term (in command mode)
 
     <kbd><</kbd> to decrease indent
 
-#### <a name="#nerdtree-reload-new-files">NERDtree reload new files</a>
+#### NERDtree reload new files
 
 You could simply hit `r` to refresh the current directory's listing or `R` to refresh the root directory's listing .
 
