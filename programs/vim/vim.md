@@ -37,16 +37,16 @@ You should make friends with the file `~/.vimrc`, and this is why the file that 
 
 Clone this sample confirutation to your PC and give it a try! ;)
 
-    $ cd ~/ && git clone --recursive git@github.com:egel/dot-files.git &&
-      ln -s /home/$USER/dot-files/.vimrc &&
+    $ cd ~/ && git clone --recursive git@github.com:egel/dot-files.git && \
+      ln -s /home/$USER/dot-files/.vimrc && \
       ln -s /home/$USER/dot-files/.vim
-
-More information can be found at: [https://github.com/egel/dot-files](https://github.com/egel/dot-files)
 
 **Reload .vimrc in Vim without restart**
 Into command mode:
 
     :source ~/.vimrc
+
+More information about above configuration can be found at [https://github.com/egel/dot-files](https://github.com/egel/dot-files) where I store my **vim** settings - give it a try ;)
 
 
 ## Quick introduction
