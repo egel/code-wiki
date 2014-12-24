@@ -23,19 +23,21 @@ Cool down a bit..., its powers hides with his versatility of usage and outstandi
     - [Find current word](#find-current-word)
     - [Tab multiple lines](#tab-multiple-lines)
     - [NERDTree reload new files](#nerdtree-reload-new-files)
+  * [Useful subjects](#useful-subjects)
+    - [Manage working directory](#manage-working-directory)
 
 
 ## Installation and configuration
-For Debian/Ubuntu/Mint:
+For Linux Debian/Ubuntu/Mint:
 
     $ sudo apt-get install vim
 
 
 **Configuration:**
 
-You should make friends with the file `~/.vimrc`, and this is why the file that stores all the basic settings that are automatically let off every time you run vim.
+If you wants to configure your vim like a boss, then you should make friends with the file `~/.vimrc`. This file stores all the basic settings that are automatically let off every time you run vim.
 
-Clone this sample confirutation to your PC and give it a try! ;)
+If you new to vim you should try some already configuration (like for example mine: [https://github.com/egel/dot-files/](https://github.com/egel/dot-files/)). Clone this sample confirutation to your PC and give it a try! ;)
 
     $ cd ~/ && git clone --recursive git@github.com:egel/dot-files.git && \
       ln -s /home/$USER/dot-files/.vimrc && \
@@ -136,6 +138,32 @@ You could simply hit `r` to refresh the current directory's listing or `R` to re
 
 More generally, many plugins have a thorough documentation that you can access with `:help <pluginame>`.
 
+
+
+### Useful subjects
+
+#### Manage working directory
+Working directory is a very useful thing, especially when you writing or renameing multiple file:
+
+**Check current working directory**
+
+    :pwd
+
+To change to the directory of the currently open file (this sets the current directory for all windows in Vim):
+
+    :cd %:p:h
+
+You can also change the directory only for the current window (each window has a local current directory that can be different from Vim's global current directory):
+
+    :lcd %:p:h
+
+In these commands, % gives the name of the current file, %:p gives its full path, and %:p:h gives its directory (the "head" of the full path).
+
+
+
+**Bibliography**
+
+  - [Vim wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 
 <!-- General links -->
  [egel-dot-files-repo]: https://github.com/egel/dot-files
