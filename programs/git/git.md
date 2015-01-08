@@ -18,6 +18,8 @@
       - [Add tag](#add-tag)
       - [Remove tag](#remove-tag)
       - [Push tag](#push-tag)
+    - Rebase:
+      - [Change order of commits](#change-order-of-commits)
     - Submodule:
       - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
     - Others:
@@ -100,6 +102,65 @@ Push all tags from one (or more) specyfic branch to origin:
 Push specyfic tag to remote repo
 
     $ git push origin <tag_name>
+
+
+
+### Rebase
+
+#### Change order of commits
+The simplest way is to run below command into repository:
+
+    $ git rebase -i HEAD~4
+
+then simply switch order of below result
+
+    pick 9d2de86 remove test settings for super tab; add gui settings for Win/Unix/Mac
+    pick c07dc4c add realtime updates to GitGutter plugin
+
+    # Rebase c58999c..c07dc4c onto c58999c
+    #
+    # Commands:
+    #  p, pick = use commit
+    #  r, reword = use commit, but edit the commit message
+    #  e, edit = use commit, but stop for amending
+    #  s, squash = use commit, but meld into previous commit
+    #  f, fixup = like "squash", but discard this commit's log message
+    #  x, exec = run command (the rest of the line) using shell
+    #
+    # These lines can be re-ordered; they are executed from top to bottom.
+    #
+    # If you remove a line here THAT COMMIT WILL BE LOST.
+    #
+    # However, if you remove everything, the rebase will be aborted.
+    #
+    # Note that empty commits are commented out
+
+
+and change it to:
+
+    pick c07dc4c add realtime updates to GitGutter plugin
+    pick 9d2de86 remove test settings for super tab; add gui settings for Win/Unix/Mac
+
+    # Rebase c58999c..c07dc4c onto c58999c
+    #
+    # Commands:
+    #  p, pick = use commit
+    #  r, reword = use commit, but edit the commit message
+    #  e, edit = use commit, but stop for amending
+    #  s, squash = use commit, but meld into previous commit
+    #  f, fixup = like "squash", but discard this commit's log message
+    #  x, exec = run command (the rest of the line) using shell
+    #
+    # These lines can be re-ordered; they are executed from top to bottom.
+    #
+    # If you remove a line here THAT COMMIT WILL BE LOST.
+    #
+    # However, if you remove everything, the rebase will be aborted.
+    #
+    # Note that empty commits are commented out
+
+Then the order of those commit will changed.
+
 
 ### Submodule
 
