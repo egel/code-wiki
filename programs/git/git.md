@@ -22,6 +22,8 @@
       - [Change order of commits](#change-order-of-commits)
     - Submodule:
       - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
+    - SSH keys:
+      - [How to generate SSH key?](#how-to-generate-ssh-key)
     - Others:
       - [Sign `^M`](#sign-m)
 
@@ -168,6 +170,18 @@ Then the order of those commit will changed.
 The simplest way is to run below command into repository:
 
     $ git pull --recurse-submodules
+
+
+### SSH keys
+
+#### How to generate SSH key?
+
+First generate par of keys (private and public) by run below command:
+
+    $ ssh-keygen -t rsa -C "your_email@example.com"
+
+then copy your `~/.ssh/*.pub` key to any place to confirm your identity.
+
 
 ### Other
 
