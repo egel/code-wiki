@@ -6,7 +6,7 @@ You'll find here many useful tips and tricks for many programming/administration
   - Bash
 
 - **Operating Systems**:
-  - Ubuntu 14.04
+  - [Ubuntu 14.04](os/linux/ubuntu/14_04/14_04.md)
 
 - **Programs**:
   - [Vim](programs/vim/vim.md)
