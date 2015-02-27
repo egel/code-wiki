@@ -1,13 +1,13 @@
 <img src="img/Vim_logo.png" title="Vim - The ultimate text editor" width="150" />
 
 # Vim
-Vim is just a text editor (with SuperPowers!). There is a version for almost any Operating System that exsist with LUI (Linear User Interface) and GUI (Graphical User Interface).
+> Vim is just a text editor (with SuperPowers!). There is a version for almost any Operating System that exsist with LUI (Linear User Interface) and GUI (Graphical User Interface).
 
 * * *
 [Egel Vim Cheat Sheet (PDF)](http://bit.ly/1wqcChS)
 * * *
 
-Many people after the first "clash" with the program usually asks:
+Many people after the first "clash" with this editor usually asks:
 
 > Why it is such a great tool? It's ugly, unpleasant and even ... @#$%^& ... aaaahhh!
 
