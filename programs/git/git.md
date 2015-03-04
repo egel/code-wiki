@@ -169,7 +169,7 @@ Then the order of those commit will changed.
 #### Update all submodules to the newest versions
 The simplest way is to run below command into repository:
 
-    $ git pull --recurse-submodules
+    $ git submodules foreach git pull
 
 
 ### SSH keys
