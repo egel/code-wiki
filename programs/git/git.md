@@ -22,6 +22,7 @@
       - [Change order of commits](#change-order-of-commits)
     - Commit:
       - [Change author of last commit](#change-author-of-last-commit)
+      - [Show changes for single file](#show-changes-for-single-file)
     - Submodule:
       - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
     - SSH keys:
@@ -172,6 +173,15 @@ Then the order of those commit will changed.
 
     $ git commit --amend --author="Maciej Sypien <maciejsypien@example.com"
 
+
+#### Show changes for single file
+To show list of commits where searched file is changed run:
+
+    $ git lg -- filename
+
+To show list of changes into files (diff) run:
+
+    $ git lg -p filename
 
 <!-- ====================================================================== -->
 ### Submodule
