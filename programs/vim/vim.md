@@ -3,7 +3,11 @@
 # Vim
 Vim is just a text editor (with SuperPowers!). There is a version for almost any Operating System that exsist with LUI (Linear User Interface) and GUI (Graphical User Interface).
 
-Many people after the first "clash" with the program usually asks:
+* * *
+[Egel Vim Cheat Sheet (PDF)][egel-cheat-sheet]
+* * *
+
+Many people after the first "clash" with this editor usually asks:
 
 > Why it is such a great tool? It's ugly, unpleasant and even ... @#$%^& ... aaaahhh!
 
@@ -63,6 +67,11 @@ More information about above configuration can be found at [https://github.com/e
 
 ## Useful shortcuts
 Below you can find many useful shortcuts that will drive your work with vim into the ligthspeed.
+
+<img src="http://www.viemu.com/vi-vim-cheat-sheet.gif" title="vi/vim graphical cheat sheet" width="100%" />
+
+or use my online [PDF Vim Cheat Sheet][egel-cheat-sheet]
+
 
 #### Undo & Redo
 
@@ -167,3 +176,4 @@ In these commands, % gives the name of the current file, %:p gives its full path
 
 <!-- General links -->
  [egel-dot-files-repo]: https://github.com/egel/dot-files
+ [egel-cheat-sheet]: http://bit.ly/1wqcChS

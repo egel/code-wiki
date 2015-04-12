@@ -20,6 +20,9 @@
       - [Push tag](#push-tag)
     - Rebase:
       - [Change order of commits](#change-order-of-commits)
+    - Commit:
+      - [Change author of last commit](#change-author-of-last-commit)
+      - [Show changes for single file](#show-changes-for-single-file)
     - Remote:
       - [Add origin repository (first time)](#add-origin-repository)
       - [Change origin repository](#change-origin-repository)
@@ -31,6 +34,7 @@
       - [Sign `^M`](#sign-m)
 
 
+<!-- ====================================================================== -->
 ### Git branch
 
 #### Clone all branches
@@ -73,6 +77,8 @@ For origin (remote) - push the "delete" changes to origin:
     $ git push --delete origin <branchName>
 
 
+
+<!-- ====================================================================== -->
 ### Git tags
 
 #### Add tag
@@ -109,7 +115,7 @@ Push specyfic tag to remote repo
     $ git push origin <tag_name>
 
 
-
+<!-- ====================================================================== -->
 ### Rebase
 
 #### Change order of commits
@@ -166,6 +172,28 @@ and change it to:
 
 Then the order of those commit will changed.
 
+
+
+<!-- ====================================================================== -->
+### Commit
+
+#### Change author of last commit
+
+    $ git commit --amend --author="Maciej Sypien <maciejsypien@example.com"
+
+
+#### Show changes for single file
+To show list of commits where searched file is changed run:
+
+    $ git lg -- filename
+
+To show list of changes into files (diff) run:
+
+    $ git lg -p filename
+
+
+
+<!-- ====================================================================== -->
 ### Remote
 
 #### Add origin repository
@@ -176,14 +204,19 @@ Then the order of those commit will changed.
 
     git remote set-url origin <repository>
 
+
+
+<!-- ====================================================================== -->
 ### Submodule
 
 #### Update all submodules to the newest versions
 The simplest way is to run below command into repository:
 
-    $ git pull --recurse-submodules
+    $ git submodules foreach git pull
 
 
+
+<!-- ====================================================================== -->
 ### SSH keys
 
 #### How to generate SSH key?
@@ -195,6 +228,8 @@ First generate par of keys (private and public) by run below command:
 then copy your `~/.ssh/*.pub` key to any place to confirm your identity.
 
 
+
+<!-- ====================================================================== -->
 ### Other
 
 #### Sign ^M
@@ -206,12 +241,3 @@ To fix it install `dos2unix` program then:
     $ dos2unix <filename>
 
 After this operation all `^M` signs should disappear.
-
-
-## Contribute
-Feel free to contribute this project. Any commit or push request are welcome :)
-
-  - Issues, typos, enhancements please report [here][repo_issues]
-
-
- [repo_issues]: https://github.com/revolunet/sublimetext-markdown-preview/issues
