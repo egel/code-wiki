@@ -20,6 +20,9 @@
       - [Push tag](#push-tag)
     - Rebase:
       - [Change order of commits](#change-order-of-commits)
+    - Remote:
+      - [Add origin repository (first time)](#add-origin-repository)
+      - [Change origin repository](#change-origin-repository)
     - Submodule:
       - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
     - SSH keys:
@@ -163,6 +166,15 @@ and change it to:
 
 Then the order of those commit will changed.
 
+### Remote
+
+#### Add origin repository
+
+    git remote add origin <repository>
+
+#### Change origin repository
+
+    git remote set-url origin <repository>
 
 ### Submodule
 
