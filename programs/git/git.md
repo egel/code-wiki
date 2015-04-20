@@ -23,6 +23,9 @@
     - Commit:
       - [Change author of last commit](#change-author-of-last-commit)
       - [Show changes for single file](#show-changes-for-single-file)
+    - Remote:
+      - [Add origin repository (first time)](#add-origin-repository)
+      - [Change origin repository](#change-origin-repository)
     - Submodule:
       - [Update all submodules to the newest versions](#update-all-submodules-to-the-newest-versions)
     - SSH keys:
@@ -169,6 +172,11 @@ and change it to:
 
 Then the order of those commit will changed.
 
+
+
+<!-- ====================================================================== -->
+### Commit
+
 #### Change author of last commit
 
     $ git commit --amend --author="John Doe <john.doe@example.com>"
@@ -182,6 +190,21 @@ To show list of commits where searched file is changed run:
 To show list of changes into files (diff) run:
 
     $ git lg -p filename
+
+
+
+<!-- ====================================================================== -->
+### Remote
+
+#### Add origin repository
+
+    git remote add origin <repository>
+
+#### Change origin repository
+
+    git remote set-url origin <repository>
+
+
 
 <!-- ====================================================================== -->
 ### Submodule
