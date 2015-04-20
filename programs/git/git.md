@@ -171,7 +171,7 @@ Then the order of those commit will changed.
 
 #### Change author of last commit
 
-    $ git commit --amend --author="Maciej Sypien <maciejsypien@example.com"
+    $ git commit --amend --author="John Doe <john.doe@example.com>"
 
 
 #### Show changes for single file
