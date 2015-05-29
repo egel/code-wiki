@@ -3,27 +3,18 @@
 You'll find here many useful tips and tricks for many programming/administration problems like:
 
 - **Shells**:
-  - Bash
-
-- **Operating Systems**:
-  - [Ubuntu 14.04](os/linux/ubuntu/14_04/14_04.md)
+  - [Bash](shells/bash.md)
 
 - **Programs**:
-  - [Vim](programs/vim/vim.md)
+  - [Apache 2.4](programs/apapche_2_4/apache_2_4.md)
   - [Git](programs/git/git.md)
+  - [MySQL](programs/mysql_5/mysql_5.md)
   - tmux
-  - MySQL
-  - Apache
+  - [Vim](programs/vim/vim.md)
 
 - **Languages**:
   - Python
   - R
-
-- **Frameworks**:
-  - AngularJS
-
-- **Others**:
-  - Making e-book (PDF) from images
 
 
 ## Contribution
