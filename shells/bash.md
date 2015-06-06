@@ -3,7 +3,8 @@
 ## Table of Content
   - [Find ID of process that listen on given port](#find-id-of-process-that-listen-on-given-port)
   - [Check state of disc](#check-state-of-disc)
-  - [Change permissions to files and separately to folders]
+  - [Change permissions to files and separately to folders](#change-permisions-to-files-and-separetly-to-folders)
+  - [Move many files to directory using find + xargs + mv](#move-many-files-to-directory-using-find--xargs--mv)
 
 ### Find ID of process that listen on given port
 To find ID of process that running on specyfic port jjust run below command and change sample port 8080 to suite your needs.
@@ -27,4 +28,10 @@ How to change permissions only for catalogs (and subcatalogs)
 and same only for files
 
     $ find ~/public_html -type f -exec chmod 644 {} \;
+
+### Move many files to directory using find + xargs + mv
+Move files with sample extension of `m4a` (music file) to directory `~/my_folder`
+
+    find ./ -name "*m4a" -print0 | xargs {} mv -t ~/my_folder
+
 
