@@ -32,6 +32,6 @@ and same only for files
 ### Move many files to directory using find + xargs + mv
 Move files with sample extension of `m4a` (music file) to directory `~/my_folder`
 
-    find ./ -name "*m4a" -print0 | xargs {} mv -t ~/my_folder
+    find ./ -name "*.m4a" -print0 | xargs {} mv -t ~/my_folder
 
 
