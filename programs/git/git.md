@@ -23,6 +23,13 @@
     - Commit:
       - [Change author of last commit](#change-author-of-last-commit)
       - [Show changes for single file](#show-changes-for-single-file)
+    - Stash:
+      - [List stash](#list-stash)
+      - [Move current changes to stash](#move-current-changes-to-stash)
+      - [Show particular stash](#show-particular-stash)
+      - [Apply into code the most recent stash and remove it from list](#apply-into-code-the-most-recent-stash-and-remove-it-from-list)
+      - [Clear whole stash stack](#clear-whole-stash-stack)
+      - [Clear particular stash](#clear-particular-stash)
     - Remote:
       - [Add origin repository (first time)](#add-origin-repository)
       - [Change origin repository](#change-origin-repository)
@@ -192,6 +199,39 @@ To show list of changes into files (diff) run:
     $ git lg -p filename
 
 
+<!-- ====================================================================== -->
+### Stash
+
+#### List stash
+```bash
+$ git stash list
+```
+
+#### Move current changes to stash
+```bash
+$ git stash
+```
+
+#### Show particular stash
+```bash
+$ git stash show -p stash@{1}
+```
+
+#### Apply into code the most recent stash and remove it from list
+```bash
+$ git stash pop
+```
+
+#### Clear whole stash stack
+Cleat all elements from stash stack.
+```
+$ git stash clear
+```
+
+#### Clear particular stash
+```bash
+$ git stash drop stash@{0}
+```
 
 <!-- ====================================================================== -->
 ### Remote
