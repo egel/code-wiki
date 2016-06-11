@@ -86,6 +86,7 @@ For origin (remote) - push the "delete" changes to origin:
 
 
 <!-- ====================================================================== -->
+* * *
 ### Git tags
 
 #### Add tag
@@ -123,6 +124,7 @@ Push specyfic tag to remote repo
 
 
 <!-- ====================================================================== -->
+* * *
 ### Rebase
 
 #### Change order of commits
@@ -182,6 +184,7 @@ Then the order of those commit will changed.
 
 
 <!-- ====================================================================== -->
+* * *
 ### Commit
 
 #### Change author of last commit
@@ -200,6 +203,7 @@ To show list of changes into files (diff) run:
 
 
 <!-- ====================================================================== -->
+* * *
 ### Stash
 
 #### List stash
@@ -234,6 +238,7 @@ $ git stash drop stash@{0}
 ```
 
 <!-- ====================================================================== -->
+* * *
 ### Remote
 
 #### Add origin repository
@@ -257,6 +262,7 @@ The simplest way is to run below command into repository:
 
 
 <!-- ====================================================================== -->
+* * *
 ### SSH keys
 
 #### How to generate SSH key?
@@ -270,6 +276,7 @@ then copy your `~/.ssh/*.pub` key to any place to confirm your identity.
 
 
 <!-- ====================================================================== -->
+* * *
 ### Other
 
 #### Sign ^M
