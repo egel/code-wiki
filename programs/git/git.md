@@ -206,6 +206,8 @@ To show list of changes into files (diff) run:
 * * *
 ### Stash
 
+**Stash <id>** - `stash@{0}` or `stash@{1}`
+
 #### List stash
 ```bash
 $ git stash list
