@@ -10,6 +10,7 @@
 ## Table of contents
 
   * Problems:
+  
     - Branch:
       - [Clone all branches](#clone-all-branches)
       - [Branch miss track with origin/master](#branch-miss-track-with-originmaster)
@@ -21,6 +22,7 @@
     - Rebase:
       - [Change order of commits](#change-order-of-commits)
     - Commit:
+      - [Commits prefix](#commits-prefix)  
       - [Change author of last commit](#change-author-of-last-commit)
       - [Show changes for single file](#show-changes-for-single-file)
     - Stash:
@@ -186,6 +188,27 @@ Then the order of those commit will changed.
 <!-- ====================================================================== -->
 * * *
 ### Commit
+
+#### Commits prefix
+> NOTE: It is not a part o git flow, rater a good practice how to better handle with commits. It is based mainly on github.com/eslint/eslint 
+
+Available prefixes 
+- Breaking
+- Build
+- Chore
+- Docs
+- Fix
+- New
+- Revert
+- Update
+- Upgrade
+- Wip
+
+**Example**
+```
+git commit "Fix: improve and increase code coverage for login page"
+```
+
 
 #### Change author of last commit
 
