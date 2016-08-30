@@ -6,8 +6,8 @@
 
 *   [Legend](#legend)
 *   [Setup](#setup)
-    *   [Add db user password to environment variable](#add-db-user-password-to-environment-variable)
-    *   [Add new postgres user](#add-new-postgres-user)
+    *   [Add DB user password to environment variable](#add-db-user-password-to-environment-variable)
+    *   [Add new database and user](#add-new-database-and-user)
 
 ## Legend
 
