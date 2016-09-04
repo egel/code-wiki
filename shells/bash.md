@@ -7,7 +7,7 @@
     -   [Change permissions to files and separately to folders](#change-permisions-to-files-and-separetly-to-folders)
     -   [Move many files to directory using find + xargs + mv](#move-many-files-to-directory-using-find--xargs--mv)
 -  Writing bash scripts
-    -   [Basic advices](#basic-advices)  
+    -   [Basic advices](#basic-advices)
 
 ### Find ID of process that listen on given port
 To find ID of process that running on specyfic port jjust run below command and change sample port 8080 to suite your needs.
@@ -25,12 +25,12 @@ To check state of files and folders use
 
 ```bash
 du -hs some-folder-or-file
-```    
+```
 
 ### Search into files with regular expressions
-It will seach for links with http or https
+It will seach for links with http or https in current directory (due to `.` on the end)
 ```bash
-egrep -r "https?//api"
+egrep -r "https?//api" .
 ```
 
 
@@ -46,6 +46,8 @@ and same only for files
 ```bash
 find ~/public_html -type f -exec chmod 644 {} \;
 ```
+
+
 ### Move many files to directory using find + xargs + mv
 Move files with sample extension of `m4a` (music file) to directory `~/my_folder`
 
@@ -57,9 +59,8 @@ find ./ -name "*.m4a" -print0 | xargs {} mv -t ~/my_folder
 
 ## Writing bash scripts
 
-### Base advices
+### Basic advices
 -   While writing use syntax checkers: `sh` & `shellcheck`
--   
 
 ### Exec script but not print on screen
 ```
