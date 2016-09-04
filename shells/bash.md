@@ -4,6 +4,7 @@
 -   Bash tricks
     -   [Find ID of process that listen on given port](#find-id-of-process-that-listen-on-given-port)
     -   [Check state of disc](#check-state-of-disc)
+    -   [Search into files with regular expressions](#search-into-files-with-regular-expressions)
     -   [Change permissions to files and separately to folders](#change-permisions-to-files-and-separetly-to-folders)
     -   [Move many files to directory using find + xargs + mv](#move-many-files-to-directory-using-find--xargs--mv)
 -  Writing bash scripts
