@@ -11,6 +11,7 @@ You'll find here many useful tips and tricks for many programming/administration
     *   [MySQL 5](programs/mysql_5/mysql_5.md)
     *   [PostgreSQL](programs/postgres/postgres.md)
     *   [Vim](programs/vim/vim.md)
+    *   [npm & nvm](programs/npm/npm.md)
     *   tmux
 
 *   **Languages**:
