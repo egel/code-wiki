@@ -33,7 +33,9 @@
       - [Clear whole stash stack](#clear-whole-stash-stack)
       - [Clear particular stash](#clear-particular-stash)
     - Squash:
-      - [Squash last 5 commits from current HEAD into single one](user-content-squash-last-5-commits-from-current-head-into-single-one)
+      - [Squash last 5 commits from current HEAD into single one](#user-content-squash-last-5-commits-from-current-head-into-single-one)
+    - Cherry-pick:
+      - [Pick one commit between branches](#user-content-pick-one-commit-between-branches)
     - Remote:
       - [Add origin repository (first time)](#add-origin-repository)
       - [Change origin repository](#change-origin-repository)
@@ -273,6 +275,20 @@ $ git stash drop stash@{0}
 git rebase -i HEAD~5
 ```
 then mark all other commits from `pick` to `s` or `squash` (except one, because you squash all into single one) and rebase.
+
+<!-- ====================================================================== -->
+* * *
+### Cherry-pick
+
+#### Pick one commit between branches
+
+1. Get hash of commit (full hash is saver) that you want to copy
+2. Switch to branch here you want to add copied commit
+
+  ```shell
+  git cherry-pick <full-commit-hash>
+  ```
+3. Resolve eventual conflicts & done.
 
 <!-- ====================================================================== -->
 * * *
