@@ -32,6 +32,8 @@
       - [Apply into code the most recent stash and remove it from list](#apply-into-code-the-most-recent-stash-and-remove-it-from-list)
       - [Clear whole stash stack](#clear-whole-stash-stack)
       - [Clear particular stash](#clear-particular-stash)
+    - Squash:
+      - [Squash last 5 commits from current HEAD into single one](user-content-squash-last-5-commits-from-current-head-into-single-one)
     - Remote:
       - [Add origin repository (first time)](#add-origin-repository)
       - [Change origin repository](#change-origin-repository)
@@ -260,6 +262,17 @@ $ git stash clear
 ```bash
 $ git stash drop stash@{0}
 ```
+
+<!-- ====================================================================== -->
+* * *
+### Squash
+
+#### Squash last 5 commits from current HEAD into single one
+
+```shell
+git rebase -i HEAD~5
+```
+then mark all other commits from `pick` to `s` or `squash` (except one, because you squash all into single one) and rebase.
 
 <!-- ====================================================================== -->
 * * *
