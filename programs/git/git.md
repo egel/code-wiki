@@ -18,7 +18,7 @@
     - Tags:
       - [Add tag](#add-tag)
       - [Remove tag](#remove-tag)
-      - [Push tag](#push-tag)
+      - [Push tags](#push-tags)
     - Rebase:
       - [Change order of commits](#change-order-of-commits)
     - Commit:
